@@ -7,7 +7,7 @@ const web_link = "https://superlative-fudge-74a999.netlify.app/";
 bot.start((ctx) =>
   ctx.reply("Welcome :)))))", {
     reply_markup: {
-      keyboard: [[{ text: "web app", web_app: { url: web_link } }]],
+      keyboard: [[{ text: "Shop", web_app: { url: web_link } }]],
     },
   })
 );
